@@ -23,7 +23,8 @@ Even though there are a lot of options for starting a networking lab I noticed a
 An attended installation requires the user to be present and actively interact with the installation process, such as responding to prompts, accepting the user agreement, or configuring disk partitions. In contrast, an unattended installation is a hands-free process that requires no user input, as all installation steps are executed automatically based on predefined settings.
 <br />
 
-<h1>Domain Controller Setup</h1>:<br />
+<h1>Domain Controller Setup</h1>
+
 <h2>Installating Windows Server 2022</h2>
 
 <p>

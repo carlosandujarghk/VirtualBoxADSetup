@@ -10,7 +10,7 @@ Even though there are a lot of options for starting a networking lab I noticed a
 <h2>Environments and Technologies Used</h2>
 
 - Virtual Box software (FOSS)
-- Windows Server 2019/2022 ISO which came be downloaded Microsoft’s website. Comes with an 180-day trial.
+- Windows Server 2019/2022 ISO which can be downloaded from Microsoft’s website. Comes with an 180-day trial.
 
 <h2>Operating Systems Used </h2>
 
@@ -52,6 +52,7 @@ As for the actual VM settings I left everything at default. The most important p
 <img width="780" height="548" alt="VM Settings" src="https://github.com/user-attachments/assets/584fecb6-c32f-4c36-a379-293716e61966" />
 </p>
 You should reach the Server Manager Screen:
+<br />
 <p>
 <img width="1426" height="775" alt="Server Manager screen" src="https://github.com/user-attachments/assets/baf4c775-3409-4aec-bc15-e1263527b2af" />
 </p>

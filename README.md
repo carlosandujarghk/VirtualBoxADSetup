@@ -32,20 +32,19 @@ An attended installation requires the user to be present and actively interact w
 <p>
 <img width="780" height="456" alt="Create Virtual Machine options" src="https://github.com/user-attachments/assets/d0d95a6c-4cd1-4234-a937-df51bd9ed7a7" />
 </p>
-<p>
-1.  Open VirtualBox -> New<br />
-2.  Name: DC1 (short for Domain Controller) or whatever you want.<br />
-3.	Folder: Where the VM machines files will be located<br />
-4.	ISO image: The downloaded Windows 2022 Server image<br />
-5.	Edition: Windows Server Standard 2022 (Desktop Experience)**<br />
+
+1.  Open VirtualBox -> New
+2.  Name: DC1 (short for Domain Controller) or whatever you want
+3.	Folder: Where the VM machines files will be located
+4.	ISO image: The downloaded Windows 2022 Server image
+5.	Edition: Windows Server Standard 2022 (Desktop Experience)
 6.	Type: Microsoft Windows<br />
-7.	Version: Microsoft Windows Server 2022<br />
-8.  Uncheck Skip Unattended Installation<br />
-9.  Unattended Install → Username: Admin Password: Password123!<br />
-10.	Hardware → At least 4GB Ram, 1 CPU core<br />
-11.	Hard Disk → 40GB-50GB<br />
-12.	Finish<br />
-</p>
+7.	Version: Microsoft Windows Server 2022
+8.  Uncheck Skip Unattended Installation
+9.  Unattended Install → Username: Admin Password: Password123!
+10.	Hardware → At least 4GB Ram, 1 CPU core
+11.	Hard Disk → 40GB-50GB
+12.	Finish
 
 As for the actual VM settings I left everything at default. The most important part is the Video Memory in the Display section. Make sure it’s at 128MB and that the ISO is attached Under Settings → Storage, mount the Windows Server ISO.
 <p>
@@ -65,8 +64,9 @@ You should reach the Server Manager Screen:
 3. Installation Type → Role-based or feature-based installation
 4. Server Selection → Select a server from the server pool → DC1
 5. Server roles → Check Active Directory Domain Services
-6. Click Add Features → Next → Install.
-7. After installation, click the yellow flag and promote this server to a domain controller
+- Click Add Features → Next → Install
+6. After installation, click the yellow flag and promote this server to a domain controller
+
 
 <p>
 <img width="1426" height="775" alt="AD features summary" src="https://github.com/user-attachments/assets/eb4ad4f0-6356-4001-87fd-f2018f1cd824" />
@@ -75,20 +75,29 @@ You should reach the Server Manager Screen:
 <p>
 <img width="1426" height="775" alt="Promoted Domain Controller" src="https://github.com/user-attachments/assets/2327c72f-1f31-4758-ba19-82e1890c78dd" />
 </p>
-<br />
 
 <h2>Create Your Domain</h2>
-<p>
-1.	Select Add a new forest.<br />
-2.	Root domain name: example.labt<br />
-3.	Set a DSRM password (use same Password123! for simplicity)<br />
-4.	Accept defaults → Install → VM reboots<br />
-</p>
 
-<p>
-<img width="1426" height="775" alt="AD Config Wizard summary" src="https://github.com/user-attachments/assets/90da1af3-9bd2-49d6-b4c6-88bfea39a860" />
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1.	Select Add a new forest
+2.	Root domain name: lab.test
+3.	Set a DSRM password (use same Password123! for simplicity)
+4.	Accept defaults → Install → VM reboots
+
+<h2>Verify Domain Controller</h2>
+
+After reboot:
+1.	Log in as Lab \administrator with your password
+2.	Open Active Directory Users and Computers (ADUC)
+- You should see your lab.test domain.
+3.	Right-click lab.test → New → Organizational Unit
+- Name it TestOU → Confirm
+4.	Right-click TestOU → New → User
+5.	First Name: Test
+6.	Last Name: User
+7.	User logon name: testuser → testuser@lab.test
+8.	Click Next, set a password: Lab123! (uncheck “User must change password at next logon” if you want quick login)
+9.	Click Finish
+
+Your TestOU now contains testuser.
+You can use this account to log in from a Windows 10 client once it’s joined to the domain.
+

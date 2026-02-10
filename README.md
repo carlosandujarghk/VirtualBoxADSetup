@@ -51,6 +51,7 @@ As for the actual VM settings I left everything at default. The most important p
 <p>
 <img width="780" height="548" alt="VM Settings" src="https://github.com/user-attachments/assets/584fecb6-c32f-4c36-a379-293716e61966" />
 </p>
+
 You should reach the Server Manager Screen:
 <br />
 <p>

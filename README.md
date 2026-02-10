@@ -47,6 +47,10 @@ An attended installation requires the user to be present and actively interact w
 12.	Finish<br />
 </p>
 
+As for the actual VM settings I left everything at default. The most important part is the Video Memory in the Display section. Make sure it’s at 128MB and that the ISO is attached Under Settings → Storage, mount the Windows Server ISO.
+<p>
+<img width="780" height="548" alt="VM Settings" src="https://github.com/user-attachments/assets/584fecb6-c32f-4c36-a379-293716e61966" />
+</p>
 You should reach the Server Manager Screen:
 <p>
 <img width="1426" height="775" alt="Server Manager screen" src="https://github.com/user-attachments/assets/baf4c775-3409-4aec-bc15-e1263527b2af" />

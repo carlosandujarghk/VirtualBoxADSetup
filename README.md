@@ -46,7 +46,11 @@ An attended installation requires the user to be present and actively interact w
 11.	Hard Disk → 40GB-50GB<br />
 12.	Finish<br />
 </p>
-<br />
+
+You should reach the Server Manager Screen:
+<p>
+<img width="1426" height="775" alt="Server Manager screen" src="https://github.com/user-attachments/assets/baf4c775-3409-4aec-bc15-e1263527b2af" />
+</p>
 
 <p>
 <img width="1426" height="775" alt="AD features summary" src="https://github.com/user-attachments/assets/eb4ad4f0-6356-4001-87fd-f2018f1cd824" />

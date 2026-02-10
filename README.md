@@ -9,8 +9,8 @@ Even though there are a lot of options for starting a networking lab I noticed a
 
 <h2>Environments and Technologies Used</h2>
 
--Virtual Box software (FOSS)
--Windows Server 2019/2022 ISO which came be downloaded Microsoft’s website. Comes with an 180-day trial.
+- Virtual Box software (FOSS)
+- Windows Server 2019/2022 ISO which came be downloaded Microsoft’s website. Comes with an 180-day trial.
 
 
 <h2>Operating Systems Used </h2>

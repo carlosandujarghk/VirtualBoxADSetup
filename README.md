@@ -19,6 +19,9 @@ Even though there are a lot of options for starting a networking lab I noticed a
 <h2>List of Prerequisites</h2>
 
 - Hardware: At least 16GB RAM, 100GB free disk recommended.
+- <b>Attended installation</b> versus <b>unattended installation:</b><br />
+An attended installation requires the user to be present and interact with the installation process with prompts, for example accepting the User Agreement or partitioning the disk while the unattended installation is a hands free process with no inputs that does all the work for you automatically. 
+<br />
 
 <h2>Domain Controller Setup: Installating Windows Server 2022</h2>
 
@@ -37,10 +40,6 @@ Even though there are a lot of options for starting a networking lab I noticed a
 9.	Hard Disk → 40GB-50GB<br />
 10.	Finish<br />
 </p>
-
-**<b>Attended installation</b> versus <b>unattended installation:</b><br />
-An attended installation requires the user to be present and interact with the installation process with prompts, for example accepting the User Agreement or partitioning the disk while the unattended installation is a hands free process with no inputs that does all the work for you automatically. 
-<br />
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>

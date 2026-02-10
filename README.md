@@ -19,7 +19,7 @@ Even though there are a lot of options for starting a networking lab I noticed a
 
 <h2>List of Prerequisites</h2>
 
-- -Hardware: At least 16GB RAM, 100GB free disk recommended.
+- Hardware: At least 16GB RAM, 100GB free disk recommended.
 
 <h2>Installation Steps</h2>
 

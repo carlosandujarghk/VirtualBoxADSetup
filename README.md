@@ -9,21 +9,17 @@ Even though there are a lot of options for starting a networking lab I noticed a
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+-Virtual Box software (FOSS)
+-Windows Server 2019/2022 ISO which came be downloaded Microsoft’s website. Comes with an 180-day trial.
+
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- -Hardware: At least 16GB RAM, 100GB free disk recommended.
 
 <h2>Installation Steps</h2>
 

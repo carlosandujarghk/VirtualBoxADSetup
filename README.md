@@ -59,14 +59,14 @@ You should reach the Server Manager Screen:
 </p>
 
 <h2>Install Active Directory Domain Services (AD DS)</h2>
-1.	Open Server Manager (auto-launches).<br />
-2.	Click Add roles and features.<br />
-3.	Installation Type → Role based or feature based installation<br />
-4.	Server Selection → Select a server from the server pool → DC1<br />
-5.	Server roles → Check Active Directory Domain Services (AD DS)<br />
-- Add Features → Next → Install<br />
-6. After install, click the yellow flag → promote this server to a domain controller<br />
-<br />
+
+1. Open Server Manager (auto-launches)
+2. Click Add roles and features
+3. Installation Type → Role-based or feature-based installation
+4. Server Selection → Select a server from the server pool → DC1
+5. Server roles → Check Active Directory Domain Services
+6. Click Add Features → Next → Install.
+7. After installation, click the yellow flag and promote this server to a domain controller
 
 <p>
 <img width="1426" height="775" alt="AD features summary" src="https://github.com/user-attachments/assets/eb4ad4f0-6356-4001-87fd-f2018f1cd824" />

@@ -22,6 +22,7 @@ Even though there are a lot of options for starting a networking lab I noticed a
 - <b>Attended installation</b> versus <b>unattended installation:</b><br />
 An attended installation requires the user to be present and actively interact with the installation process, such as responding to prompts, accepting the user agreement, or configuring disk partitions. In contrast, an unattended installation is a hands-free process that requires no user input, as all installation steps are executed automatically based on predefined settings.
 <br />
+Make sure to select the correct edition which is Windows Server 2022 Standard Evaluation (Desktop Experience) so you have a GUI to work with. If not, only a terminal will be available. You can do everything from the GUI in the terminal but it’s not recommended for beginners.
 
 <h2>Installating Windows Server 2022 (Unattended)</h2>
 
@@ -36,9 +37,10 @@ An attended installation requires the user to be present and actively interact w
 5.	Edition: Windows Server Standard 2022 (Desktop Experience)**<br />
 6.	Type: Microsoft Windows<br />
 7.	Version: Microsoft Windows Server 2022<br />
-8.	Hardware → At least 4GB Ram, 1 CPU core<br />
-9.	Hard Disk → 40GB-50GB<br />
-10.	Finish<br />
+8. Uncheck Skip Unattended Installation
+9.	Hardware → At least 4GB Ram, 1 CPU core<br />
+10.	Hard Disk → 40GB-50GB<br />
+11.	Finish<br />
 </p>
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

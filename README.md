@@ -67,11 +67,10 @@ You should reach the Server Manager Screen:
 - Click Add Features → Next → Install
 6. After installation, click the yellow flag and promote this server to a domain controller
 
-
 <p>
 <img width="1426" height="775" alt="AD features summary" src="https://github.com/user-attachments/assets/eb4ad4f0-6356-4001-87fd-f2018f1cd824" />
 </p>
-<br />
+</ br>
 <p>
 <img width="1426" height="775" alt="Promoted Domain Controller" src="https://github.com/user-attachments/assets/2327c72f-1f31-4758-ba19-82e1890c78dd" />
 </p>
@@ -100,4 +99,8 @@ After reboot:
 
 Your TestOU now contains testuser.
 You can use this account to log in from a Windows 10 client once it’s joined to the domain.
+
+<p>
+<img width="788" height="502" alt="DC online" src="https://github.com/user-attachments/assets/af4c5d54-1b90-47a6-b5d9-8f3921786a35" />
+</p>
 

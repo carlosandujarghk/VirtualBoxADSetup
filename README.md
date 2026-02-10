@@ -46,16 +46,26 @@ An attended installation requires the user to be present and actively interact w
 11.	Hard Disk → 40GB-50GB<br />
 12.	Finish<br />
 </p>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1426" height="775" alt="AD features summary" src="https://github.com/user-attachments/assets/eb4ad4f0-6356-4001-87fd-f2018f1cd824" />
+</p>
+<p>
+<img width="1426" height="775" alt="Promoted Domain Controller" src="https://github.com/user-attachments/assets/2327c72f-1f31-4758-ba19-82e1890c78dd" />
+</p>
+<br />
+
+<h2>Create Your Domain</h2>
+<p>
+1.	Select Add a new forest.<br />
+2.	Root domain name: example.labt<br />
+3.	Set a DSRM password (use same Password123! for simplicity).<br />
+4.	Accept defaults → Install → VM reboots.<br />
+</p>
+
+<p>
+<img width="1426" height="775" alt="AD Config Wizard summary" src="https://github.com/user-attachments/assets/90da1af3-9bd2-49d6-b4c6-88bfea39a860" />
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

@@ -39,10 +39,10 @@ Even though there are a lot of options for starting a networking lab I noticed a
 10.	Finish<br />
 </p>
 
-**<b>Attended installation</b> versus unattended installation:<br />
+**<b>Attended installation</b> versus <b>unattended installation:</b><br />
 An attended installation requires the user to be present and interact with the installation process with prompts, for example accepting the User Agreement or partitioning the disk while the unattended installation is a hands free process with no inputs that does all the work for you automatically. 
+<br />
 
-<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>

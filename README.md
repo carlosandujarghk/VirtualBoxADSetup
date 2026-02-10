@@ -58,9 +58,20 @@ You should reach the Server Manager Screen:
 <img width="1426" height="775" alt="Server Manager screen" src="https://github.com/user-attachments/assets/baf4c775-3409-4aec-bc15-e1263527b2af" />
 </p>
 
+<h2>Install Active Directory Domain Services (AD DS)</h2>
+1.	Open Server Manager (auto-launches).<br />
+2.	Click Add roles and features.<br />
+3.	Installation Type → Role based or feature based installation<br />
+4.	Server Selection → Select a server from the server pool → DC1<br />
+5.	Server roles → Check Active Directory Domain Services (AD DS)<br />
+- Add Features → Next → Install<br />
+6. After install, click the yellow flag → promote this server to a domain controller<br />
+<br />
+
 <p>
 <img width="1426" height="775" alt="AD features summary" src="https://github.com/user-attachments/assets/eb4ad4f0-6356-4001-87fd-f2018f1cd824" />
 </p>
+<br />
 <p>
 <img width="1426" height="775" alt="Promoted Domain Controller" src="https://github.com/user-attachments/assets/2327c72f-1f31-4758-ba19-82e1890c78dd" />
 </p>
@@ -70,8 +81,8 @@ You should reach the Server Manager Screen:
 <p>
 1.	Select Add a new forest.<br />
 2.	Root domain name: example.labt<br />
-3.	Set a DSRM password (use same Password123! for simplicity).<br />
-4.	Accept defaults → Install → VM reboots.<br />
+3.	Set a DSRM password (use same Password123! for simplicity)<br />
+4.	Accept defaults → Install → VM reboots<br />
 </p>
 
 <p>

@@ -27,7 +27,16 @@ Even though there are a lot of options for starting a networking lab I noticed a
 <img width="780" height="456" alt="Create Virtual Machine options" src="https://github.com/user-attachments/assets/d0d95a6c-4cd1-4234-a937-df51bd9ed7a7" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1.	Open VirtualBox -> New
+2.	Name: DC1 (short for Domain Controller) or whatever you want.
+3.	Folder: Where the VM machines files will be located
+4.	ISO image: The downloaded Windows 2022 Server image
+5.	Edition: Windows Server Standard 2022 (Desktop Experience)**
+6.	Type: Microsoft Windows
+7.	Version: Microsoft Windows Server 2022
+8.	Hardware → At least 4GB Ram, 1 CPU core
+9.	Hard Disk → 40GB-50GB
+10.	Finish
 </p>
 <br />
 

@@ -24,7 +24,7 @@ Even though there are a lot of options for starting a networking lab I noticed a
 <h2>Installating Windows Server 2022</h2>
 
 <p>
-
+![Create Virtual Machine options](https://github.com/user-attachments/assets/47272a27-8fa4-4f99-9790-5cf7297c2ea0)
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

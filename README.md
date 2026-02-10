@@ -3,7 +3,7 @@
 </p>
 
 <h1>Introduction</h1>
-Jobs ask for Active Directory experience. Virtual Box let’s you practice at home. This lab simulates a small business environment.
+Jobs ask for Active Directory experience. Virtual Box let’s you practice at home. This lab simulates a small business environment.<br />
 
 Even though there are a lot of options for starting a networking lab I noticed a plenty of jobs looking for experience in Active Directory. But how can you as an IT Support Specialist in training practice these skills in your personal virtual machine? This project describes the method I used to build a simple, practical Active Directory lab in VirtualBox. It’s easy to set up and a great way to get started with real-world IT concepts.<br />
 

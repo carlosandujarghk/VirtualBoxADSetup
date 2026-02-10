@@ -38,7 +38,6 @@ Even though there are a lot of options for starting a networking lab I noticed a
 9.	Hard Disk → 40GB-50GB<br />
 10.	Finish<br />
 </p>
-<br />
 
 **Attended installation versus unattended installation:<br />
 An attended installation requires the user to be present and interact with the installation process with prompts, for example accepting the User Agreement or partitioning the disk while the unattended installation is a hands free process with no inputs that does all the work for you automatically. 

@@ -2,8 +2,10 @@
 <img width="300" height="168" alt="68747470733a2f2f692e696d6775722e636f6d2f705535413538532e706e67" src="https://github.com/user-attachments/assets/2c6a3bc8-fc6b-4efd-94e6-4dcae76e7b68" />
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Introduction</h1>
+Jobs ask for Active Directory experience. Virtual Box let’s you practice at home. This lab simulates a small business environment.
+
+Even though there are a lot of options for starting a networking lab I noticed a plenty of jobs looking for experience in Active Directory. But how can you as an IT Support Specialist in training practice these skills in your personal virtual machine? This project describes the method I used to build a simple, practical Active Directory lab in VirtualBox. It’s easy to set up and a great way to get started with real-world IT concepts.<br />
 
 
 <h2>Video Demonstration</h2>

@@ -159,4 +159,58 @@ Prompts -> Account -> Join a Domain Instead -> Security Questions
 <img width="779" height="554" alt="win10clientipset" src="https://github.com/user-attachments/assets/2b576355-12cb-4ea5-924a-61558a1c567d" />
 </p>
 
+This setup is standard for small lab environments: the DC handles the domain, clients connect via Host-Only, and the DC can still access the internet via NAT if needed.
+Then, you can join the Win10 VM to the domain as testuser. 
+You can ping 192.168.56.10 (should succeed.)
+
+<h2>Join the Domain</h2>
+
+1.	Right-click This PC → Properties → Advanced system settings → Computer Name.
+2.	Click Change → select Domain and enter: lab.test.
+3.	Click OK.
+4.	When prompted, enter credentials of a domain account with permission (use lab\administrator + password).
+5.	If all goes well, you’ll see: “Welcome to the lab.test domain”.
+6.	Click OK → reboot the VM.
+
+<p>
+<img width="779" height="554" alt="welcomedomain" src="https://github.com/user-attachments/assets/ba7a1411-a1f0-4452-931b-fb00f17f033d" />
+</p>
+
+<h2>Log in as Domain User</h2>
+
+1.	On the login screen, click Other user.
+2.	Enter username: testuser (or lab\testuser)
+3.	Enter the password you created in AD.
+4.	Log in → your Windows 10 desktop is now part of the domain
+
+Testing Domain Login
+- Open Command Prompt → type whoami
+Should show: LAB\testuser
+
+- Run echo %USERDOMAIN% and it should show LAB
+
+<p>
+<img width="779" height="554" alt="verifiedwhoami" src="https://github.com/user-attachments/assets/47bcd779-ad41-4e56-b2dd-cf8bd2ed1d20" />
+</p>
+
+<h2>Lessons learned and Appendix</h2>
+
+- NAT-only doesn’t allow client-to-DC communication → Host-Only needed.
+- DNS must point to DC for domain join.
+- Windows “No Internet” icon doesn’t always mean no internet.
+- NetBIOS vs FQDM
+- Windows taskbar may show “No internet” on NAT, but internet still works.
+- Resetting AD user passwords is a quick fix if login fails.
+  
+It’s important to remember the virtual adapter has on your local machine. By going to Network and Sharing Center and looking at it’s properties you will notice that it has a static IP of 192.168.56.1 which is in the same subnet as both VMs. It’s easy to break the Server’s IP configuration with static IPs and lose access to the internet. Having a NAT adapter with automatic configuration helps mitigate that problem.
+
+Another important mention is the NetBIOS Domain Name (a.k.a. "Pre–Windows 2000 Name") When you create a new domain like lab.test, Active Directory also needs a short, legacy-friendly name. That’s the NetBIOS name, usually the first part of your domain in ALL CAPS.
+
+Example: if your domain is lab.local → NetBIOS name = LAB. It exists for backward compatibility with old Windows systems (NT, 2000, some legacy apps). You only need to change it if you have multiple domains with overlapping names.
+
+When logging in to a domain machine, you can log in as:
+LAB\username (NetBIOS style)
+username@lab.local (UPN style)
+
+Both work but in modern environments, the UPN style (user@domain) is more common.
 

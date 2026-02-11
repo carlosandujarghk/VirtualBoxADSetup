@@ -124,6 +124,39 @@ Set a static IP (example):
 - DNS: 192.168.56.10 (self, once DC is configured)
 
 <p>
-<img width="2010" height="597" alt="networkexample" src="https://github.com/user-attachments/assets/863aa582-9cb8-4230-8abd-1cdea5b08f39" />
+<img width="1603" height="597" alt="networkexample" src="https://github.com/user-attachments/assets/efee2d7c-280a-4884-8f05-3a5dfac03a1e" />
 </p>
+
+<h2>Windows 10 Client Setup</h2>
+
+Prerequisites
+
+1.	Windows 10 VM created in VirtualBox.
+2.	Network setup:
+
+- Ensure the VM can reach your Domain Controller.
+- Since we’re using NAT + Host-Only: The Windows 10 adapter on the Host-Only network should have:
+- IP in the same subnet as DC’s Host-Only adapter.
+- DNS pointing to your Domain Controller’s IP.
+Domain join must use DC as DNS. If the VM points to Google (8.8.8.8), the join will fail.
+
+<b>Setup:</b>
+
+- Same as Windows Server 2022
+- 128MB Video Memory
+- 4GB or more of Ram
+
+Prompts -> Account -> Join a Domain Instead -> Security Questions
+
+<h2>Network Configuration:</h2>
+
+- IP Address: 192.168.10.20
+- Subnet: 255.255.255.255.0
+- Gateway: Blank
+- DNS Server: 192.168.56.10 (This is your Domain Controller)
+
+<p>
+<img width="779" height="554" alt="win10clientipset" src="https://github.com/user-attachments/assets/2b576355-12cb-4ea5-924a-61558a1c567d" />
+</p>
+
 

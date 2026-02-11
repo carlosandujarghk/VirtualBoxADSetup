@@ -104,3 +104,26 @@ You can use this account to log in from a Windows 10 client once it’s joined t
 <img width="788" height="502" alt="DC online" src="https://github.com/user-attachments/assets/af4c5d54-1b90-47a6-b5d9-8f3921786a35" />
 </p>
 
+<h2>Configuring Network</h2>
+
+Control panel -> Network and Internet -> Under Network and Sharing Center click View network status and tasks  -> Change adapter settings
+
+You will see the first Network adapter called Ethernet leave it as it is.
+Rename the second NIC to LAN right-click adapter -> Rename. This step is optional, but it helps differentiate between the two.
+
+<p>
+<img width="698" height="398" alt="lan2" src="https://github.com/user-attachments/assets/b36072bd-6942-46fb-8b5e-1223b2e71d3e" />
+</p>
+
+Right click NIC -> Properties -> Internet Protocol Version 4 (TCP/IPv4) -> Properties
+
+Set a static IP (example):
+- IP: 192.168.56.10
+- Subnet: 255.255.255.0
+- Gateway: leave blank (or your host if bridging).
+- DNS: 192.168.56.10 (self, once DC is configured)
+
+<p>
+<img width="2010" height="597" alt="networkexample" src="https://github.com/user-attachments/assets/863aa582-9cb8-4230-8abd-1cdea5b08f39" />
+</p>
+
